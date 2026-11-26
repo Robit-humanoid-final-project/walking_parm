@@ -1,0 +1,22 @@
+ros__parameters:
+    # Navigation
+    ## 목표 위치까지 이동할 때 사용
+    Nav_test_X: 30.00
+    Nav_test_side_R: -10.00
+    Nav_test_side_L: 10.00
+    Nav_test_Yaw_R: -5.00
+    Nav_test_Yaw_L: 5.00
+
+    # Task_Planner
+    ## 공이 근접했을 때 사용
+    Ta_test_X_F: 5.00
+    Ta_test_X_B: -5.00
+    Ta_test_side_R: -10.00
+    Ta_test_side_L: 10.00
+    Ta_test_yaw_R: -5.00
+    Ta_test_yaw_L: 5.00
+
+    ## Task_Planner에서 회전하면서 횡 이동할 땐 
+    ## Task_Planner 값들을 사용 
+    ## EX) 왼쪽으로 횡 이동하면서 오른쪽으로 회전
+    ## -> Ta_test_side_L: 10.00, Ta_test_yaw_R: -5.00
